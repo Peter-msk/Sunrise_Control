@@ -546,3 +546,28 @@ Control Client는 제어정보를 읽기 위해 필요한 최소 네트워크 �
 **Repository:** Peter-msk/Sunrise_Control  
 **Primary policy file:** `control.txt`  
 **Control schema:** v1
+
+---
+
+## 19. Security Architecture v2 설계
+
+Sunrise Control의 중앙 정책을 다른 개발자가 클라이언트 패치·임의 재빌드로 단순 우회하기 어렵게 하기 위한 **Security Architecture v2** 설계를 별도 문서로 관리합니다.
+
+설계 핵심:
+
+- `control.txt`는 기존 운영정책 원본으로 유지
+- `control.txt.sig`를 통한 정책 전자서명
+- Offline Root 기반 keyset/키 교체
+- Authorization Server
+- short-lived Execution Lease
+- TPM-backed Device Key
+- Official Build Registry 및 Revocation
+- STANDARD / ENFORCED / STRICT 보안 프로필
+- Python/Tauri 제품용 Native Guard
+- 관리형 Windows 환경의 App Control for Business 연동
+- 기존 updater / latest.json / SHA256 / package contract 비침범
+
+현재 문서는 **설계 상태이며 아직 런타임에 구현되지 않았습니다.**
+
+문서: [Sunrise Control Security Architecture v2.0 DESIGN](docs/Sunrise_Control_Security_Architecture_v2.0_DESIGN.md)
+
