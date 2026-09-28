@@ -1,0 +1,121 @@
+# Sunrise Control
+# Central runtime/update policy for Sunrise Group applications.
+# Encoding: UTF-8
+#
+# This file controls runtime permission and updater permission only.
+# It does NOT replace each product's latest.json / notice.txt / package contract.
+#
+# operation = allow | maintenance | block
+# update    = allow | block | required
+#
+# Evaluation order:
+# 1. Read [global].
+# 2. Read [product.<control_id>].
+# 3. If the product section is absent, use global defaults.
+# 4. If network access fails, use the last valid cached control until cache_ttl_seconds expires.
+# 5. If no valid cache exists, use fallback_operation / fallback_update.
+# 6. maintenance or block prevents normal application entry.
+# 7. update=required means the product uses its OWN update contract and requires update
+#    when current version is below minimum_version.
+#
+# minimum_version:
+# - Semantic numeric version X.Y.Z
+# - Blank means no minimum version is enforced.
+#
+# message:
+# - UTF-8 text
+# - Blank means the product uses its built-in default message.
+
+[global]
+schema_version=1
+control_revision=1
+updated_at=2026-09-28T12:39:00+09:00
+default_operation=allow
+default_update=allow
+fallback_operation=allow
+fallback_update=allow
+cache_ttl_seconds=21600
+
+[product.sunrise_control]
+display_name=Sunrise Control
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_cleaner]
+display_name=Sunrise Cleaner
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_pdf_pro]
+display_name=Sunrise PDF PRO
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_pdf_editor]
+display_name=Sunrise PDF Editor
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_finder]
+display_name=Sunrise Finder
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_capture]
+display_name=Sunrise Capture
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_eiass]
+display_name=Sunrise EIASS
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_eia_manager]
+display_name=Sunrise EIA Manager
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_aermod]
+display_name=Sunrise Aermod
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_shorts_ai]
+display_name=Sunrise Shorts AI
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.agent_peter]
+display_name=Agent Peter
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.geoagent_ai]
+display_name=GeoAgent AI
+operation=allow
+update=allow
+minimum_version=
+message=
