@@ -81,7 +81,7 @@ message=
 [product.sunrise_eiass]
 display_name=Sunrise EIASS
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
