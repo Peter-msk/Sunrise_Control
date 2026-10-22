@@ -67,7 +67,7 @@ message=
 [product.sunrise_file_manager]
 display_name=Sunrise File Manager
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
