@@ -67,9 +67,9 @@ message=
 [product.sunrise_file_manager]
 display_name=Sunrise File Manager
 operation=allow
-update=allow
+update=block
 minimum_version=
-message=
+message=v1.5.0 업데이트 예정
 
 [product.sunrise_finder]
 display_name=Sunrise Finder
