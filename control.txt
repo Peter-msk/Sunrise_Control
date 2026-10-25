@@ -28,8 +28,8 @@
 
 [global]
 schema_version=1
-control_revision=2
-updated_at=2026-10-21T07:15:00+09:00
+control_revision=3
+updated_at=2026-10-25T12:44:30+09:00
 default_operation=allow
 default_update=allow
 fallback_operation=allow
@@ -67,7 +67,7 @@ message=
 [product.sunrise_file_manager]
 display_name=Sunrise File Manager
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
