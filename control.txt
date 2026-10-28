@@ -31,36 +31,36 @@ schema_version=1
 control_revision=2
 updated_at=2026-10-21T07:15:00+09:00
 default_operation=allow
-default_update=allow
+default_update=block
 fallback_operation=allow
-fallback_update=allow
+fallback_update=block
 cache_ttl_seconds=21600
 
 [product.sunrise_control]
 display_name=Sunrise Control
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_cleaner]
 display_name=Sunrise Cleaner
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_pdf_pro]
 display_name=Sunrise PDF PRO
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_pdf_editor]
 display_name=Sunrise PDF Editor
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
@@ -74,55 +74,55 @@ message=
 [product.sunrise_finder]
 display_name=Sunrise Finder
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_capture]
 display_name=Sunrise Capture
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_eiass]
 display_name=Sunrise EIASS
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_eia_manager]
 display_name=Sunrise EIA Manager
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_aermod]
 display_name=Sunrise Aermod
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.sunrise_shorts_ai]
 display_name=Sunrise Shorts AI
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.agent_peter]
 display_name=Agent Peter
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
 
 [product.geoagent_ai]
 display_name=GeoAgent AI
 operation=allow
-update=allow
+update=block
 minimum_version=
 message=
