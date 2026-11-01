@@ -29,7 +29,7 @@
 [global]
 schema_version=1
 control_revision=2
-updated_at=2026-10-21T07:15:00+09:00
+updated_at=2026-11-01T17:24:00+09:00
 default_operation=allow
 default_update=allow
 fallback_operation=allow
@@ -46,21 +46,21 @@ message=
 [product.sunrise_cleaner]
 display_name=Sunrise Cleaner
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.sunrise_pdf_pro]
 display_name=Sunrise PDF PRO
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.sunrise_pdf_editor]
 display_name=Sunrise PDF Editor
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
@@ -88,41 +88,41 @@ message=
 [product.sunrise_eiass]
 display_name=Sunrise EIASS
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.sunrise_eia_manager]
 display_name=Sunrise EIA Manager
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.sunrise_aermod]
 display_name=Sunrise Aermod
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.sunrise_shorts_ai]
 display_name=Sunrise Shorts AI
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.agent_peter]
 display_name=Agent Peter
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
 
 [product.geoagent_ai]
 display_name=GeoAgent AI
 operation=allow
-update=block
+update=allow
 minimum_version=
 message=
