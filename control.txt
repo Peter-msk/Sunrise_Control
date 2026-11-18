@@ -29,7 +29,7 @@
 [global]
 schema_version=1
 control_revision=2
-updated_at=2026-11-01T17:24:00+09:00
+updated_at=2026-11-18T18:56:00+09:00
 default_operation=allow
 default_update=allow
 fallback_operation=allow
@@ -59,6 +59,13 @@ message=
 
 [product.sunrise_pdf_editor]
 display_name=Sunrise PDF Editor
+operation=allow
+update=allow
+minimum_version=
+message=
+
+[product.sunrise_drawing_editor]
+display_name=Sunrise Drawing Editor
 operation=allow
 update=allow
 minimum_version=
